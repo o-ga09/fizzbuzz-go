@@ -1,0 +1,177 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ git init
+Initialized empty Git repository in /Users/taichi/src/fizzbuzz-go/.git/
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+You have new mail in /var/mail/taichi
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ git add README.md 
+tabeMacBook-Air:fizzbuzz-go taichi$ git commit -m "first commit"
+[main (root-commit) 2136759] first commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 README.md
+tabeMacBook-Air:fizzbuzz-go taichi$ git branch -M main
+tabeMacBook-Air:fizzbuzz-go taichi$ git remote add origin https://github.com/o-ga09/fizzbuzz-go.git
+tabeMacBook-Air:fizzbuzz-go taichi$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 420 bytes | 420.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/o-ga09/fizzbuzz-go.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go mod init go-fizzbuzz
+go: creating new go.mod: module go-fizzbuzz
+go: to add module requirements and sums:
+        go mod tidy
+You have new mail in /var/mail/taichi
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+You have new mail in /var/mail/taichi
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go run main.go 
+package command-line-arguments is not a main package
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go mod init main
+go: creating new go.mod: module main
+go: to add module requirements and sums:
+        go mod tidy
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go mod tidy
+go: finding module for package github.com/magiconair/properties/assert
+go: found github.com/magiconair/properties/assert in github.com/magiconair/properties v1.8.7
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+You have new mail in /var/mail/taichi
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go mod tidy
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ 
+tabeMacBook-Air:fizzbuzz-go taichi$ go run main.go 
+number : 1
+number : 2
+number : fizz
+number : 4
+number : buzz
+number : fizz
+number : 7
+number : 8
+number : fizz
+number : buzz
+number : 11
+number : fizz
+number : 13
+number : 14
+number : fizzbuzz
+number : 16
+number : 17
+number : fizz
+number : 19
+number : buzz
+number : fizz
+number : 22
+number : 23
+number : fizz
+number : buzz
+number : 26
+number : fizz
+number : 28
+number : 29
+number : fizzbuzz
+number : 31
+number : 32
+number : fizz
+number : 34
+number : buzz
+number : fizz
+number : 37
+number : 38
+number : fizz
+number : buzz
+number : 41
+number : fizz
+number : 43
+number : 44
+number : fizzbuzz
+number : 46
+number : 47
+number : fizz
+number : 49
+number : buzz
+number : fizz
+number : 52
+number : 53
+number : fizz
+number : buzz
+number : 56
+number : fizz
+number : 58
+number : 59
+number : fizzbuzz
+number : 61
+number : 62
+number : fizz
+number : 64
+number : buzz
+number : fizz
+number : 67
+number : 68
+number : fizz
+number : buzz
+number : 71
+number : fizz
+number : 73
+number : 74
+number : fizzbuzz
+number : 76
+number : 77
+number : fizz
+number : 79
+number : buzz
+number : fizz
+number : 82
+number : 83
+number : fizz
+number : buzz
+number : 86
+number : fizz
+number : 88
+number : 89
+number : fizzbuzz
+number : 91
+number : 92
+number : fizz
+number : 94
+number : buzz
+number : fizz
+number : 97
+number : 98
+number : fizz
+number : buzz
+tabeMacBook-Air:fizzbuzz-go taichi$ 
